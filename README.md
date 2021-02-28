@@ -59,7 +59,13 @@ To setup your local storage, apply this settings to `local.settings.json`:
 }
 ```
 
-### Naming convention
+### Naming conventions
 
 - input files are expect to be dropped in: `log-lake` container;
 - output file are uploaded in `map-reduce-lake` container (a _processing_ and _complete_ folder are created for each file)
+
+### To do
+
+- better error handling
+- edge-case scenario tests
+- sas token for storage account
